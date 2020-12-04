@@ -15,17 +15,17 @@ function fizzBuzz(firstString, secondString) {
     }
 }
 
-console.log(fizzBuzz('Job', 'Etum'));
+fizzBuzz('Job', 'Etum');
 
 
 //Solution for second Challenge. 
 
-// let a = insert.value;
+let age = prompt("What is your age?");
 
-// if (a < 18) {
-//     console.log('This user is a minor');
-// } else if (a > 18 && a < 36 ) {
-//     console.log('This is a youth!')
-// } else {
-//     console.log('This user is an elder!')
-// }
+if (age < 18) {
+     console.log('User is a minor');
+     } else if (age > 18 && age < 36 ) {
+     console.log('User is a youth!')
+ } else {
+     console.log('User is an elder!')
+ }
