@@ -11,11 +11,14 @@ function fizzBuzz(firstString, secondString) {
     } else if (combinedLength.length % 3 === 0) {
         console.log('Fizz');
     } else {
-        console.log('Not divisible by 5 or 3')
+        console.log('Not divisible by 5 or 3');
     }
 }
 
-fizzBuzz('Job', 'Etum');
+fizzBuzz('Job', 'Code'); //(seven letters) evaluates to not divisible by 5 or 3
+fizzBuzz('Three', 'Byes');//(Nine letters) evaluates to Fizz
+fizzBuzz('ma', 'mia'); //(Five letters) evaluates to Buzz;
+fizzBuzz('Fiver', 'fifteenies');//(Fifteen letters) evaluates to FizzBuzz
 
 
 //Solution for second Challenge. 
@@ -23,9 +26,9 @@ fizzBuzz('Job', 'Etum');
 let age = prompt("What is your age?");
 
 if (age < 18) {
-     console.log('User is a minor');
-     } else if (age > 18 && age < 36 ) {
-     console.log('User is a youth!')
- } else {
-     console.log('User is an elder!')
+        console.log('User is a minor');
+    } else if (age > 18 && age < 36 ) {
+        console.log('User is a youth!')
+    } else {
+        console.log('User is an elder!')
  }
